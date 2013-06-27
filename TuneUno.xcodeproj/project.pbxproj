@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E8E0A81746325C000A9747 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E8E0A71746325C000A9747 /* Security.framework */; };
+		5002BD6C1439DE2400FEAB3C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002BD6B1439DE2400FEAB3C /* AudioToolbox.framework */; };
+		5002BD7D1439E8E800FEAB3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002BD7C1439E8E800FEAB3C /* SystemConfiguration.framework */; };
+		5002BD7F1439E8FC00FEAB3C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002BD7E1439E8FC00FEAB3C /* CFNetwork.framework */; };
+		5002BD811439E90400FEAB3C /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002BD801439E90400FEAB3C /* libstdc++.dylib */; };
+		50A26BEC1439D7AA00A0C876 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A26BEB1439D7AA00A0C876 /* CoreAudio.framework */; };
+		50AF49AD1439CB6D00E4A5EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AF49AC1439CB6D00E4A5EF /* UIKit.framework */; };
+		50AF49AF1439CB6D00E4A5EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AF49AE1439CB6D00E4A5EF /* Foundation.framework */; };
+		50AF49B11439CB6D00E4A5EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AF49B01439CB6D00E4A5EF /* CoreGraphics.framework */; };
+		50DBB5E11520BF6100BF516F /* SPLoginResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50DBB5E01520BF6100BF516F /* SPLoginResources.bundle */; };
+		50FAA141143A0B1400FF06D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FAA140143A0B1400FF06D7 /* AVFoundation.framework */; };
+		8112DEA81770F55500B8326A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8112DEA71770F55500B8326A /* ImageIO.framework */; };
+		81ABE575177BDF2300A6ECBD /* libCocoaLibSpotify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ABE570177BDF0600A6ECBD /* libCocoaLibSpotify.a */; };
+		81ABE576177BDF2800A6ECBD /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ABE567177BDF0000A6ECBD /* libSDWebImage.a */; };
+		81ABE583177BDFBC00A6ECBD /* RotatableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABE582177BDFBC00A6ECBD /* RotatableViewController.m */; };
+		81ABE585177BDFC300A6ECBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ABE584177BDFC300A6ECBD /* Images.xcassets */; };
+		81ABE587177BDFCA00A6ECBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ABE586177BDFCA00A6ECBD /* Main.storyboard */; };
+		81ABE58A177BDFE000A6ECBD /* Simple_PlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABE589177BDFE000A6ECBD /* Simple_PlayerAppDelegate.m */; };
+		81ABE58D177BDFEA00A6ECBD /* TUAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABE58C177BDFEA00A6ECBD /* TUAlbumViewController.m */; };
+		81ABE590177BDFF200A6ECBD /* TUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABE58F177BDFF200A6ECBD /* TUViewController.m */; };
+		81ABE593177BE00200A6ECBD /* TUAlbumViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABE592177BE00200A6ECBD /* TUAlbumViewLayout.m */; };
+		81ABE595177BE01300A6ECBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABE594177BE01300A6ECBD /* main.m */; };
+		81ABE59B177BE04D00A6ECBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81ABE599177BE04D00A6ECBD /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81ABE566177BDF0000A6ECBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ABE557177BDEFE00A6ECBD /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		81ABE568177BDF0000A6ECBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ABE557177BDEFE00A6ECBD /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage+MKAnnotation";
+		};
+		81ABE56F177BDF0600A6ECBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ABE56A177BDF0500A6ECBD /* CocoaLibSpotify iOS Library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50AF49DC1439CBFE00E4A5EF;
+			remoteInfo = CocoaLibSpotify;
+		};
+		81ABE571177BDF0600A6ECBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ABE56A177BDF0500A6ECBD /* CocoaLibSpotify iOS Library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50D4F52B156BCDE800E237DD;
+			remoteInfo = CocoaLSTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37E8E0A71746325C000A9747 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5002BD6B1439DE2400FEAB3C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5002BD7C1439E8E800FEAB3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5002BD7E1439E8FC00FEAB3C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5002BD801439E90400FEAB3C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		50A26BEB1439D7AA00A0C876 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		50AF49A81439CB6D00E4A5EF /* TuneUno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneUno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AF49AC1439CB6D00E4A5EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50AF49AE1439CB6D00E4A5EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50AF49B01439CB6D00E4A5EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50DBB5E01520BF6100BF516F /* SPLoginResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SPLoginResources.bundle; path = ../../../SPLoginResources.bundle; sourceTree = "<group>"; };
+		50FAA140143A0B1400FF06D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8112DEA71770F55500B8326A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		81ABE557177BDEFE00A6ECBD /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = ../../../SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		81ABE56A177BDF0500A6ECBD /* CocoaLibSpotify iOS Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CocoaLibSpotify iOS Library.xcodeproj"; path = "../../../cocoalibspotify/iOS Library/CocoaLibSpotify iOS Library.xcodeproj"; sourceTree = "<group>"; };
+		81ABE579177BDFA800A6ECBD /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = api.h; path = TuneUno/api.h; sourceTree = SOURCE_ROOT; };
+		81ABE57F177BDFB500A6ECBD /* appkey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = appkey.c; path = TuneUno/appkey.c; sourceTree = SOURCE_ROOT; };
+		81ABE581177BDFBC00A6ECBD /* RotatableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotatableViewController.h; path = TuneUno/RotatableViewController.h; sourceTree = SOURCE_ROOT; };
+		81ABE582177BDFBC00A6ECBD /* RotatableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotatableViewController.m; path = TuneUno/RotatableViewController.m; sourceTree = SOURCE_ROOT; };
+		81ABE584177BDFC300A6ECBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TuneUno/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		81ABE586177BDFCA00A6ECBD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = TuneUno/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		81ABE588177BDFE000A6ECBD /* Simple_PlayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Simple_PlayerAppDelegate.h; path = TuneUno/Simple_PlayerAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		81ABE589177BDFE000A6ECBD /* Simple_PlayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Simple_PlayerAppDelegate.m; path = TuneUno/Simple_PlayerAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		81ABE58B177BDFEA00A6ECBD /* TUAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUAlbumViewController.h; path = TuneUno/TUAlbumViewController.h; sourceTree = SOURCE_ROOT; };
+		81ABE58C177BDFEA00A6ECBD /* TUAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUAlbumViewController.m; path = TuneUno/TUAlbumViewController.m; sourceTree = SOURCE_ROOT; };
+		81ABE58E177BDFF200A6ECBD /* TUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUViewController.h; path = TuneUno/TUViewController.h; sourceTree = SOURCE_ROOT; };
+		81ABE58F177BDFF200A6ECBD /* TUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUViewController.m; path = TuneUno/TUViewController.m; sourceTree = SOURCE_ROOT; };
+		81ABE591177BE00200A6ECBD /* TUAlbumViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUAlbumViewLayout.h; path = TuneUno/TUAlbumViewLayout.h; sourceTree = SOURCE_ROOT; };
+		81ABE592177BE00200A6ECBD /* TUAlbumViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUAlbumViewLayout.m; path = TuneUno/TUAlbumViewLayout.m; sourceTree = SOURCE_ROOT; };
+		81ABE594177BE01300A6ECBD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TuneUno/main.m; sourceTree = SOURCE_ROOT; };
+		81ABE596177BE01A00A6ECBD /* TuneUno-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TuneUno-Prefix.pch"; path = "TuneUno/TuneUno-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		81ABE597177BE03C00A6ECBD /* Simple Player-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Simple Player-Info.plist"; path = "TuneUno/Simple Player-Info.plist"; sourceTree = SOURCE_ROOT; };
+		81ABE59A177BE04D00A6ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = TuneUno/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50AF49A51439CB6D00E4A5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABE576177BDF2800A6ECBD /* libSDWebImage.a in Frameworks */,
+				81ABE575177BDF2300A6ECBD /* libCocoaLibSpotify.a in Frameworks */,
+				8112DEA81770F55500B8326A /* ImageIO.framework in Frameworks */,
+				37E8E0A81746325C000A9747 /* Security.framework in Frameworks */,
+				50FAA141143A0B1400FF06D7 /* AVFoundation.framework in Frameworks */,
+				5002BD811439E90400FEAB3C /* libstdc++.dylib in Frameworks */,
+				5002BD7F1439E8FC00FEAB3C /* CFNetwork.framework in Frameworks */,
+				5002BD7D1439E8E800FEAB3C /* SystemConfiguration.framework in Frameworks */,
+				5002BD6C1439DE2400FEAB3C /* AudioToolbox.framework in Frameworks */,
+				50A26BEC1439D7AA00A0C876 /* CoreAudio.framework in Frameworks */,
+				50AF49AD1439CB6D00E4A5EF /* UIKit.framework in Frameworks */,
+				50AF49AF1439CB6D00E4A5EF /* Foundation.framework in Frameworks */,
+				50AF49B11439CB6D00E4A5EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AF499D1439CB6D00E4A5EF = {
+			isa = PBXGroup;
+			children = (
+				81ABE56A177BDF0500A6ECBD /* CocoaLibSpotify iOS Library.xcodeproj */,
+				81ABE557177BDEFE00A6ECBD /* SDWebImage.xcodeproj */,
+				50AF49B21439CB6D00E4A5EF /* Simple Player */,
+				50AF49AB1439CB6D00E4A5EF /* Frameworks */,
+				50AF49A91439CB6D00E4A5EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50AF49A91439CB6D00E4A5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AF49A81439CB6D00E4A5EF /* TuneUno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50AF49AB1439CB6D00E4A5EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8112DEA71770F55500B8326A /* ImageIO.framework */,
+				37E8E0A71746325C000A9747 /* Security.framework */,
+				50FAA140143A0B1400FF06D7 /* AVFoundation.framework */,
+				5002BD801439E90400FEAB3C /* libstdc++.dylib */,
+				5002BD7E1439E8FC00FEAB3C /* CFNetwork.framework */,
+				5002BD7C1439E8E800FEAB3C /* SystemConfiguration.framework */,
+				5002BD6B1439DE2400FEAB3C /* AudioToolbox.framework */,
+				50A26BEB1439D7AA00A0C876 /* CoreAudio.framework */,
+				50AF49AC1439CB6D00E4A5EF /* UIKit.framework */,
+				50AF49AE1439CB6D00E4A5EF /* Foundation.framework */,
+				50AF49B01439CB6D00E4A5EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50AF49B21439CB6D00E4A5EF /* Simple Player */ = {
+			isa = PBXGroup;
+			children = (
+				81ABE579177BDFA800A6ECBD /* api.h */,
+				81ABE58B177BDFEA00A6ECBD /* TUAlbumViewController.h */,
+				81ABE58C177BDFEA00A6ECBD /* TUAlbumViewController.m */,
+				81ABE591177BE00200A6ECBD /* TUAlbumViewLayout.h */,
+				81ABE592177BE00200A6ECBD /* TUAlbumViewLayout.m */,
+				81ABE58E177BDFF200A6ECBD /* TUViewController.h */,
+				81ABE58F177BDFF200A6ECBD /* TUViewController.m */,
+				81ABE588177BDFE000A6ECBD /* Simple_PlayerAppDelegate.h */,
+				81ABE589177BDFE000A6ECBD /* Simple_PlayerAppDelegate.m */,
+				81ABE586177BDFCA00A6ECBD /* Main.storyboard */,
+				81ABE57F177BDFB500A6ECBD /* appkey.c */,
+				81ABE581177BDFBC00A6ECBD /* RotatableViewController.h */,
+				81ABE582177BDFBC00A6ECBD /* RotatableViewController.m */,
+				81ABE584177BDFC300A6ECBD /* Images.xcassets */,
+				50DBB5E01520BF6100BF516F /* SPLoginResources.bundle */,
+				50AF49B31439CB6D00E4A5EF /* Supporting Files */,
+			);
+			path = "Simple Player";
+			sourceTree = "<group>";
+		};
+		50AF49B31439CB6D00E4A5EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81ABE597177BE03C00A6ECBD /* Simple Player-Info.plist */,
+				81ABE599177BE04D00A6ECBD /* InfoPlist.strings */,
+				81ABE594177BE01300A6ECBD /* main.m */,
+				81ABE596177BE01A00A6ECBD /* TuneUno-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81ABE561177BDF0000A6ECBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81ABE567177BDF0000A6ECBD /* libSDWebImage.a */,
+				81ABE569177BDF0000A6ECBD /* libSDWebImage+MKAnnotation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81ABE56B177BDF0500A6ECBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81ABE570177BDF0600A6ECBD /* libCocoaLibSpotify.a */,
+				81ABE572177BDF0600A6ECBD /* CocoaLSTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AF49A71439CB6D00E4A5EF /* TuneUno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AF49CE1439CB6E00E4A5EF /* Build configuration list for PBXNativeTarget "TuneUno" */;
+			buildPhases = (
+				50AF49A41439CB6D00E4A5EF /* Sources */,
+				50AF49A51439CB6D00E4A5EF /* Frameworks */,
+				50AF49A61439CB6D00E4A5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuneUno;
+			productName = "Simple Player";
+			productReference = 50AF49A81439CB6D00E4A5EF /* TuneUno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50AF499F1439CB6D00E4A5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = mneary;
+			};
+			buildConfigurationList = 50AF49A21439CB6D00E4A5EF /* Build configuration list for PBXProject "TuneUno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50AF499D1439CB6D00E4A5EF;
+			productRefGroup = 50AF49A91439CB6D00E4A5EF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 81ABE56B177BDF0500A6ECBD /* Products */;
+					ProjectRef = 81ABE56A177BDF0500A6ECBD /* CocoaLibSpotify iOS Library.xcodeproj */;
+				},
+				{
+					ProductGroup = 81ABE561177BDF0000A6ECBD /* Products */;
+					ProjectRef = 81ABE557177BDEFE00A6ECBD /* SDWebImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				50AF49A71439CB6D00E4A5EF /* TuneUno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		81ABE567177BDF0000A6ECBD /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 81ABE566177BDF0000A6ECBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		81ABE569177BDF0000A6ECBD /* libSDWebImage+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+MKAnnotation.a";
+			remoteRef = 81ABE568177BDF0000A6ECBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		81ABE570177BDF0600A6ECBD /* libCocoaLibSpotify.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaLibSpotify.a;
+			remoteRef = 81ABE56F177BDF0600A6ECBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		81ABE572177BDF0600A6ECBD /* CocoaLSTests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CocoaLSTests.app;
+			remoteRef = 81ABE571177BDF0600A6ECBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50AF49A61439CB6D00E4A5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABE585177BDFC300A6ECBD /* Images.xcassets in Resources */,
+				81ABE59B177BE04D00A6ECBD /* InfoPlist.strings in Resources */,
+				81ABE587177BDFCA00A6ECBD /* Main.storyboard in Resources */,
+				50DBB5E11520BF6100BF516F /* SPLoginResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50AF49A41439CB6D00E4A5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABE595177BE01300A6ECBD /* main.m in Sources */,
+				81ABE583177BDFBC00A6ECBD /* RotatableViewController.m in Sources */,
+				81ABE58D177BDFEA00A6ECBD /* TUAlbumViewController.m in Sources */,
+				81ABE593177BE00200A6ECBD /* TUAlbumViewLayout.m in Sources */,
+				81ABE590177BDFF200A6ECBD /* TUViewController.m in Sources */,
+				81ABE58A177BDFE000A6ECBD /* Simple_PlayerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81ABE599177BE04D00A6ECBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ABE59A177BE04D00A6ECBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50AF49CC1439CB6E00E4A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = $CONFIGURATION_BUILD_DIR/include;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50AF49CD1439CB6E00E4A5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = $CONFIGURATION_BUILD_DIR/include;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50AF49CF1439CB6E00E4A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mattneary/Desktop/Summer Projects/TuneUno/iOS Library/Sample Projects/TuneUno/TuneUno/TuneUno-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TuneUno/Simple Player-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-force_load",
+					"${BUILT_PRODUCTS_DIR}/libSDWebImage.a",
+				);
+				PRODUCT_NAME = TuneUno;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50AF49D01439CB6E00E4A5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mattneary/Desktop/Summer Projects/TuneUno/iOS Library/Sample Projects/TuneUno/TuneUno/TuneUno-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TuneUno/Simple Player-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-force_load",
+					"${BUILT_PRODUCTS_DIR}/libSDWebImage.a",
+				);
+				PRODUCT_NAME = TuneUno;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50AF49A21439CB6D00E4A5EF /* Build configuration list for PBXProject "TuneUno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AF49CC1439CB6E00E4A5EF /* Debug */,
+				50AF49CD1439CB6E00E4A5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AF49CE1439CB6E00E4A5EF /* Build configuration list for PBXNativeTarget "TuneUno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AF49CF1439CB6E00E4A5EF /* Debug */,
+				50AF49D01439CB6E00E4A5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50AF499F1439CB6D00E4A5EF /* Project object */;
+}
